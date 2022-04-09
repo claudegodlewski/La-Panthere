@@ -7,16 +7,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+#accueilContact {
+    background:#F3976C;
+    }
+
 a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    margin:14px;
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -405,7 +412,7 @@ a:hover {
 
 .nav > li > .dropdown a {
     background: none!important;
-    display: block;
+    /* display: block; */
     padding: 14px 15px;
 }
 
