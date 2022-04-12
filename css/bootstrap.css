@@ -1662,6 +1662,13 @@ mark {
 	position: relative;
 }
 
+.citationItalic {
+	text-align: center;
+	position: relative;
+    font-style:italic;
+    font-size:20px;
+}
+
 .text-justify {
     text-align: justify
 }
